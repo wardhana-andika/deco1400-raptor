@@ -1,0 +1,59 @@
+
+.leftcol{
+	width: 50%;
+	float: left;
+}
+
+.rightcol{
+	width: 50%;
+	float: right;
+}
+
+.singlecontainer{
+	width: 75%;
+	margin: 0px;
+}
+
+.leftcol .singlecontainer{
+	margin-left: 30px;
+}
+
+#content img{
+	border: 2px solid rgba(166, 161, 68, 0.9);
+}
+
+.leftcol img{
+	width: 330px;
+}
+
+.rightcol img{
+	width: 180px;
+}
+
+.rightcol .singlecontainer{
+	margin-right: 30px;
+	float: right;
+	min-height: 0px;
+	height: 500px;
+	padding-bottom: 30px;
+}
+
+button{
+	margin-right: 30px;
+	float: right;
+	color: white;
+	background-color: #4D8D39;
+	width: 90%;
+	height: 100px;
+	border: 3px solid rgba(166, 161, 68, 0.9);
+	border-radius: 10px;
+	margin-top: 10px;
+	font-size: 1.3em;
+	text-decoration: underline;
+}
+
+button:hover{
+	background-color: rgba(211, 236, 203, 0.9); 
+	color: #4D8D39;
+}
+

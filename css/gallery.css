@@ -1,0 +1,90 @@
+
+	#slide{
+	margin-left: -10%;
+	}
+
+	ul.navg{
+		position: relative;
+		z-index: 1;
+		list-style-type: none;
+		margin-left: -40px;
+		margin-top:0;
+		padding: 0:
+		text-align: center;
+		overflow: hidden;
+	}
+
+	.navg li{
+		float: left;
+		display: block;
+		width: 14.28%;
+		margin: 0px;
+		margin-left: 65px;
+		margin-right: 10px;
+	}	
+
+	.navg a:link, .navg a:visited{
+		display: block;
+		font-weight: bold;
+		color: #d3eccb;
+		background-color: rgba(77, 141, 57, 0.9);
+		text-align: center;
+		padding: 8px;
+		text-decoration: none;
+		text-transform: none;
+	}
+
+	.navg a:hover, .navg a:active{
+		text-decoration: underline;
+	}
+	.singlecontainer2{
+		border-style: solid;
+		border-width: 3px;
+		border-color: rgba(166, 161, 68, 0.9);
+		background-color: rgba(255, 253, 208, 0.5);
+		display: block;
+		border-radius: 20px;
+		min-height: 100px;
+		overflow: hidden;
+		width: 90%;
+		margin-right: auto;
+		margin-left: auto;
+		padding-top: 10px;
+		padding-bottom: 10px;
+		padding-left: 50px;
+		padding-right: 20px;
+	}
+
+
+	#slideshow { 
+		margin-bottom:100px;
+		position: center; 
+		width: 50%; 
+		height: 50%; 
+		padding: 10px; 
+		padding-bottom:100px;
+		margin-bottom:680px;
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+	#slideshow > div { 
+		position: absolute; 
+		top: 18%; 
+		left: 0px; 
+		right: 10px; 
+		bottom: 10px; 
+	}
+	
+	#slideshow img{
+		margin-top: 30px;
+		margin-left: 50px;
+		height: 750px;
+		width: 900px;
+	}
+
+	.singlecontainer2 a{
+		border: 3px solid rgba(166, 161, 68, 0.9);
+	}
+	
+
+			

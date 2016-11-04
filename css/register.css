@@ -1,0 +1,95 @@
+
+.leftcol{
+	width: 50%;
+	float: left;
+}
+
+.rightcol{
+	width: 50%;
+	float: right;
+}
+
+.singlecontainer{
+	width: 75%;
+	margin: 0px;
+}
+
+.leftcol .singlecontainer{
+	margin-left: 30px;
+	position: relative;
+	min-height: 600px;
+}
+
+.rightcol .singlecontainer{
+	margin-right: 30px;
+	float: right;
+	min-height: 600px;
+}
+
+#PDFButton{
+	color: white;
+	background-color: #4D8D39;
+	border: 3px solid rgba(166, 161, 68, 0.9);
+	border-bottom: none;
+	border-right: none;
+	padding-right: 10px;
+	padding-bottom: 7px;
+	font-size: 1.3em;
+	text-decoration: underline;
+	position: absolute;
+	bottom: 0;
+	right: 0;
+}
+
+#PDFButton:hover{
+	background-color: rgba(211, 236, 203, 0.9); 
+	color: #4D8D39;
+}
+
+textarea, input{
+	margin-bottom: 10px;
+}
+
+
+#registration label{
+	color: #843022;
+	text-align:left;
+	width: auto;
+}
+
+#registration input, #registration textarea{
+	margin-bottom: 10px;
+}
+
+#submitButton, #registration input, #registration textarea{
+	border: 1px solid #843022;
+}
+
+#registration textarea{
+	margin-left: 20px;
+}
+
+.buttondiv{
+	margin-top: 40px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#submitButton{
+	border-radius: 5px;
+	width: 100px;
+	height: 30px;
+	cursor: default;
+        color: #c0c0c0;
+        background-color: #ffffff;
+}
+
+#submitButton.active{
+	background-color:#D6D6D6;
+	color: #843022;
+}
+
+#submitButton.active:hover{
+	background-color:#999999;
+	color:white;
+}

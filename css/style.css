@@ -1,0 +1,540 @@
+/* some colors use the rgba format (red, green , blue, alpha(transparency))
+rgb 0-255, alpha 0-1
+http://www.w3schools.com/tags/ref_colorpicker.asp converts hex to rgb vice versa
+*/
+
+/***** body and container*****/	
+			body{
+				background-image: url(../images/cover.jpg);
+				background-repeat: no-repeat;
+				background-size: cover;
+				background-attachment: fixed;
+				font-family: "Sans";
+				min-height: 1000px;
+				min-width: 1200px;
+				
+				padding-left: 50px;
+				padding-right: 50px;
+			}
+			
+			p{
+				margin-left: 20px;
+				margin-right: 20px;
+				font-size: 12pt;
+				color: #843022;
+				display: block;
+			}
+			
+			label {
+				display: inline-block;
+				float: left;
+				clear: left;
+				text-align: right;
+				width: 100px;
+				margin-left: 20px;
+				margin-right: 10px;
+				font-size: 10pt;
+				color: #843022;
+			}
+			
+			input, textarea, select {
+				display: inline-block;
+				float: left;
+			}
+			
+			fieldset{
+				margin-left: 20px;
+				margin-right: 20px;
+				border: 1px solid rgba(225, 223, 178, 0.7);
+			}
+			
+			legend{
+				font-size: 12pt;
+				color: #FFFDD0;
+			}
+			
+			a.inlinelink:link, a.inlinelink:visited{
+				color: #FFFDD0;
+				text-align: center;
+				text-decoration: underline;
+				text-transform: lowercase;
+			}
+			
+			a.inlinelink:hover, a.inlinelink:active{
+				text-decoration: underline;
+			}
+			
+			.block{
+				display: block;
+			}
+			
+			.sublegend{
+				font-size: 10pt;
+				color: 1px solid rgba(225, 223, 178, 0.7);
+			}
+			
+			.buttondiv{
+				margin-top: 20px;
+				margin-left: 40%;
+				text-align: center;
+				display: block;
+			}
+			
+			.fitimagesimple{
+				height: auto;
+				width: auto;
+				margin-left: auto;
+				margin-right: auto;
+			
+			}
+			.fitimage{
+				display: block;
+				height: 70%;
+				width: 30%;
+				border: 1px solid rgba(225, 223, 178, 0.7);
+				margin-bottom: 10px;
+				margin-left: auto;
+				margin-right: auto;
+			}
+			
+			.sponsorimage{
+				display: block;
+				height: 70%;
+				width: 30%;
+				border: 1px solid rgba(225, 223, 178, 0.7);
+				margin-bottom: 10px;	
+				margin-left: auto;
+				margin-right: auto;
+			}
+			
+			.leafletimage{
+				display: block;
+				height: 800px;
+				width: 90%;
+				border: 1px solid rgba(225, 223, 178, 0.7);
+				margin-bottom: 10px;	
+				margin-left: auto;
+				margin-right: auto;
+			
+			}
+			
+		/** gallery elements**/
+			
+		/*MAIN CONTAINER*/
+			#container{
+						position: relative;
+						left: -35px;
+						display: block;
+						width: 1000px;
+						min-height: 500px;
+						overflow: hidden;
+						margin-left: auto;
+						margin-right: auto;
+						padding-top: 20px;
+						padding-bottom: 40px;
+						}
+						
+			#map-canvas{
+			min-height: 400px;
+			min-width: 160px;
+			
+			}
+			
+			#share-buttons{
+				margin-top: 250px;
+				display: block;
+				float: left;
+			}
+			
+			#share-buttons img {
+				width: 35px;
+				padding: 5px;
+				border: 0;
+				box-shadow: 0;
+				display: block;
+				}
+
+
+/******************** header ***********************/						
+			#header {background-color: rgba(255, 253, 208, 0.5);
+						height: 150px;
+						padding-bottom:0px;
+						}
+						
+			#banner{ height: 50%;
+					width: 70%;
+					display: block;
+					padding-top: 40px;
+					margin-left: auto;
+					margin-right: auto;
+					}
+					
+
+/********************* global nav ************/			
+			#nav {
+				margin: 0;
+				padding: 0;
+				display: table;
+				width: 100%;
+				border-top-width: 3px;
+				border-bottom-width: 3px;
+				border-left-width: 0px;
+				border-right-width: 0px;
+				border-style: solid; 
+				border-color: rgba(211, 236, 203, 0.9);
+
+			}
+						
+			ul.navi{
+				list-style-type: none;
+				margin-left: -40px;
+				margin-top:0;
+				padding: 0:
+				overflow: hidden;
+			}
+			
+			.navi li{
+				float: left;
+				display: block;
+				width: 14.28%;
+				margin: 0;
+			}
+			
+			.navi a:link, .navi a:visited{
+				display: block;
+				font-weight: bold;
+				color: #d3eccb;
+				background-color: rgba(77, 141, 57, 0.9);
+				text-align: center;
+				padding: 8px;
+				text-decoration: none;
+				text-transform: none;
+			}
+			
+			.navi a:hover, .navi a:active{
+				background-color: rgba(211, 236, 203, 0.9); 
+				color: #4D8D39;
+			}
+			
+			.currentpage a:link, .currentpage a:visited{
+				background-color: rgba(211, 236, 203, 0.9); 
+				color: #4D8D39;
+			}
+			
+			.regbutton a:link, .regbutton a:visited{
+				background-color: rgba(168, 128, 68, 0.9); 
+			}
+			
+			.regbutton a:hover, .regbutton a:active{
+				background-color: rgba(255, 253, 208, 0.9); 
+				color: #a68044;
+			}
+			
+			.regbuttoncurrent a:link, .regbuttoncurrent a:visited{
+				background-color: rgba(255, 253, 208, 0.9); 
+				color: #a68044;
+			}
+
+/****************** content ***********************/			
+			#content{
+				min-height:500px;
+				overflow: hidden;
+				background-color: rgba(255, 253, 208, 0.5);
+				padding-top:20px;
+				padding-bottom:20px;
+				}
+				
+			#social{
+				margin-top: 250px;
+				display: block;
+				float: left;
+				border-style: solid;
+				border-width: 1px;
+				border-color: #BAD8B0;
+				background-color: rgba(186, 216, 176, 0.5);
+				display: block;
+				border-radius: 20px;
+				min-height: 500px;
+				overflow: hidden;
+				width: 50px;
+				margin-right: auto;
+				margin-left: auto;
+				padding-top: 10px;
+				padding-bottom: 10px;
+				padding-left: 50px;
+				padding-right: 20px;
+			}
+			
+			.searchbar{
+				display: block;
+				text-align: right;
+				color: #843022;
+				font-size: 18pt;
+				font-weight: bold;
+				width: 100%;
+				margin-bottom: 70px;
+				padding-left: 50px;
+			}
+			
+			.searchbar input:focus {
+				outline:none;
+			}
+			
+			.searchbar .search{
+				border-radius: 20px;
+				padding-left: 5px;
+				padding-right: 5px;
+				border-color: #843022;
+			}
+			
+			#search{
+				border-radius: 20px;
+				padding-left: 5px;
+				padding-right: 5px;
+				border-color: #843022;
+			}
+			
+			/*content header*/
+			.contentheader{
+				display: block;
+				text-align: center;
+				color: #843022;
+				font-size: 24pt;
+				font-weight: bold;
+			}
+			
+			/*paragraph header*/
+			.parheader{
+				display: block;
+				text-align: center;
+				color: #843022;
+				font-size: 16pt;
+				font-weight: bold;
+			}
+				
+			/* 2 divs side by side in 1 big container */
+			.contentleft{
+				border-style: solid;
+				border-width: 3px;
+				border-color: rgba(166, 161, 68, 0.9);
+				background-color: rgba(255, 253, 208, 0.5);
+				display: block;
+				border-radius: 20px;
+				width: 45%;
+				float: left;
+				margin-left: 30px;
+				margin-top: 10px;
+				padding-bottom: 20px;
+				min-height: 400px;
+				overflow: hidden;
+			}
+			
+			.contentleftalpha{
+				border-style: none;
+				border-width: 3px;
+				border-color: rgba(166, 161, 68, 0);
+				background-color: rgba(255, 253, 208, 0);
+				display: block;
+				border-radius: 20px;
+				width: 45%;
+				float: left;
+				margin-left: 30px;
+				margin-top: 10px;
+				padding-bottom: 20px;
+				min-height: 400px;
+				overflow: hidden;
+			}
+			
+			.contentright{
+				border-style: solid;
+				border-width: 3px;
+				border-color: rgba(166, 161, 68, 0.9);
+				background-color: rgba(255, 253, 208, 0.5);
+				display: block;
+				border-radius: 20px;
+				width: 45%;
+				float: left;
+				margin-left: 30px;
+				margin-top: 10px;
+				padding-bottom: 20px;
+				min-height: 400px;
+				overflow: hidden;
+			}
+			
+			.topcontainer{ 
+				border-style: solid;
+				border-width: 3px;
+				border-color: rgba(166, 161, 68, 0.9);
+				background-color: rgba(255, 253, 208, 0.5);
+				display: block;
+				float: left;
+				border-radius: 20px;
+				height: 30%;
+				width: 90%;
+				margin-right: auto;
+				margin-left: auto;
+				}
+				
+			.bottomcontainer{ 
+				border-style: solid;
+				border-width: 3px;
+				border-color: rgba(166, 161, 68, 0.9);
+				background-color: rgba(255, 253, 208, 0.5);
+				display: block;
+				float: left;
+				border-radius: 20px;
+				height: 90%;
+				width: 90%;
+				margin-right: auto;
+				margin-left: auto;
+				margin-top: 50px;
+				padding-bottom: 10px;
+				}
+				
+			.simplelink a:link, .simplelink a:visited{
+				color: #843022;
+			}
+				
+			#overlay{
+				display: none;
+				position:absolute;
+				top:0;
+				left:0;
+				right:0;
+				bottom:0;
+				background-color:rgba(0, 0, 0, 0.85);
+				min-height: 1800px;
+				width: 100%;
+				color:white;
+				z-index:9999;
+			}
+			
+			#leaflet1, #leaflet2{
+				padding-left: 100px;
+				padding-top: 100px;
+				display: none;
+				width: 100%;
+			}
+			
+			dl{ 
+				margin-left: 20px;
+				margin-right: 20px;
+				font-size: 10pt;
+				color: #843022;
+				overflow: hidden;}
+			
+			dt{ float: left;
+				clear: both;}
+				
+			dd{float: right;
+			}
+			
+			dd, dt{
+				margin-bottom: 20px;
+			}
+			
+				
+			/*******content**********/
+			
+			.singlecontainer{
+				border-style: solid;
+				border-width: 3px;
+				border-color: rgba(166, 161, 68, 0.9);
+				background-color: rgba(255, 253, 208, 0.5);
+				display: block;
+				border-radius: 20px;
+				min-height: 500px;
+				overflow: hidden;
+				width: 90%;
+				margin-right: auto;
+				margin-left: auto;
+				padding-top: 10px;
+				padding-bottom: 10px;
+				padding-left: 50px;
+				padding-right: 20px;
+			}
+			
+			/*no border, fully transparent background*/
+			.singlecontainertransparent{
+				border-style: solid;
+				border-width: 0px;
+				border-color: rgba(185, 119, 55, 0.9);
+				background-color: rgba(135, 69, 5, 0);
+				display: block;
+				border-radius: 20px;
+				min-height: 200px;
+				overflow: hidden;
+				width: 80%;
+				margin-right: auto;
+				margin-left: auto;
+				padding-top: 10px;
+				padding-bottom: 10px;
+				padding-left: 50px;
+				padding-right: 20px;
+			}
+			
+			
+			
+/********************** sponsor **************************/
+			#sponsor{background-color: rgba(186, 216, 176, 0.5);
+						height:50px;
+						padding-top:0px;
+						padding-bottom:20px;
+						padding-left:0px;
+						padding-right:0px;
+						width: 100%;
+						min-height: 280px;
+						overflow: hidden;
+						}
+
+			
+			
+/********************** footer ***************************/			
+			#footer{
+				background-color: rgba(166, 128, 68, 0.5);
+				padding-top:5px;
+				width: 100%;
+				min-height: 50px;
+				overflow: hidden;
+				}
+			
+			#footercontent{width: 75%%;
+						height: 50%;
+						margin-top: 10px;
+						margin-left: auto;
+						margin-right: auto;
+						padding:0;
+						text-align: center;
+						font-size: 10pt;
+						}
+			
+			ul.navf{
+				list-style-type: none;
+				margin-left: -40px;
+				margin-top:0;
+				padding: 0:
+				text-align: center;
+				overflow: hidden;
+			}
+			
+			.navf li
+				{
+				text-align: center;
+				display: inline;
+				list-style-type: none;
+				padding-right: 20px;
+				}	
+
+			.navf a:link, .navf a:visited{
+				color: #FFFDD0;
+				text-align: center;
+				text-decoration: underline;
+				text-transform: lowercase;
+			}
+			
+			.navf a:hover, .navf a:active{
+				text-decoration: underline;
+			}
+			
+			
+			

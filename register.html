@@ -1,0 +1,171 @@
+<!doctype HTML>
+
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Register</title>
+		<link rel="stylesheet" title="" type="text/css" href="css/style.css">
+		<link rel="stylesheet" type="text/css" href="css/register.css">
+		<script type="text/javascript" src="js/jquery-2.1.4.js"></script>
+		<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCKgMX23avWFEHgZFOz1fpjllvpKk5hPh0"></script>
+		<script type="text/javascript" src="js/script.js"></script>
+		<script type="text/javascript" src="js/formvalidate.js"></script>
+	
+	</head>
+	
+	<body>
+	
+		<div id="share-buttons">
+    
+			<!-- Email -->
+			<a href="mailto:?Subject=Simple Share Buttons&amp;Body=I%20saw%20this%20and%20thought%20of%20you!%20 https://simplesharebuttons.com">
+				<img src="images/email.png" alt="Email" />
+			</a>
+		 
+			<!-- Facebook -->
+			<a href="http://www.facebook.com/sharer.php?u=https://simplesharebuttons.com" target="_blank">
+				<img src="images/side_fb.png" alt="Facebook" />
+			</a>
+			
+			<!-- Google+ -->
+			<a href="https://plus.google.com/share?url=https://simplesharebuttons.com" target="_blank">
+				<img src="images/side_gplus.png" alt="Google" />
+			</a>
+			 
+			<!-- Twitter -->
+			<a href="http://www.tumblr.com/share/link?url=https://simplesharebuttons.com&amp;name=Simple Share Buttons&hashtags=simplesharebuttons" target="_blank">
+				<img src="images/side_twitter.png" alt="Twitter" />
+			</a>
+		</div>
+
+		<section id="container">
+			<section id="header">
+				<a href="index.html">
+					<img id="banner" src="images/banner.png" alt="Rudgwick Banner" />
+				</a>
+			</section>
+			
+			
+			<section id="nav">
+				<ul class="navi">
+					<li><a href="attractions.html">Attractions</a></li>
+					<li><a href="directions.html">Directions</a></li>
+					<li><a href="gallery.html">Gallery</a></li>
+					<li><a href="testimonials.html">Testimonials</a></li>
+					<li><a href="contact.html">Contact Us</a></li>
+					<li><a href="about.html">About Us</a></li>
+					<li class="regbuttoncurrent" ><a href="register.html">Register</a></li>
+				</ul>
+			</section>
+			
+			
+			
+		
+			<section id="content">
+				<section class="contentheader">
+					<p class="contentheader">Register Today!</p>
+				</section>
+				<div class = "leftcol">
+					<div class="singlecontainer">
+					<p class="parheader">Registration Information</p>
+					<p>For 2015 Exhibit entry & public camping forms PLEASE EMAIL US.</br></br>
+					If you wish to bring you vintage car or motorcycle for the day, we now have a turn up on the day of your choice. 
+					It is not necessary to book, just turn up!</br></p>
+					
+					<p> Please do not send in a form for  'Turn up on the day' entries. Vintage vehicles must be
+					within the historic vehicle road tax category. Later dated vehicles must be of special interest, for example Harley Davidson, Rolls Royce
+					of Luxury type.</p>
+					
+					<p>Entries that are not attending for the full
+					3 days are invited to attend. This is done on a 'turn up on the day' basis. You may attend with your exhibit on the day of your choice.
+					At previous shows we have allowed vehicles of interest on to the site. A 50% discount will apply per occupant. Prior booking is not
+					necessary. Your entry will be able to take full part in the show including arena activities. Vehicle admission is at the discretion of 
+					the gate staff. In the interest of safety and the betterment of the event, we do ask that you remain on the show-ground until the daily end
+					of the show: SAT, SUN 5:00PM. MON 4:30PM.</br></p>
+					
+					
+						<a href="https://www.dropbox.com/s/gbxauummss1tebs/RudgwickSteamShowTraderForm.pdf?dl=0"><button id = "PDFButton">Download PDF form</button></a>
+					</div>
+				</div>
+				
+				<div class = "rightcol">
+					<div class="singlecontainer">
+						<section id = "registration">
+							<form action=# method="GET">
+								<p class="parheader">Online Form</p>
+								<label for="nameinput">Name:</label><input name="name" type="text" id="nameinput" placeholder="Name">
+								<br /><br />
+								
+								<label for="numinput">Phone:</label><input name = "Number" type="text" id="numinput" placeholder="Phone">
+								<br /><br />
+								
+								<label for="emailinput">Email:</label><input type="text" id="emailinput" placeholder="Email">
+								<br /><br />
+								
+								<label for="addressinput">Address:</label>
+								<textarea name = "address" rows = "5" cols = "40" id="addressinput" placeholder="Address"></textarea>
+								<br /><br />
+								
+								<label for="goodsinput">Nature of Goods:</label>
+								<textarea name = "goods"rows = "5" cols = "40" id="goodsinput" placeholder="Nature of Goods"></textarea>
+								<br /><br />
+								
+								<label name="plotinput">Plot:</label>
+								
+								<label for="20ft">20 ft (£ 144)</label>
+								<br /><br />
+								<input type="radio" name="plotinput" id="radio20ft" value="20ft" checked="checked"><br>
+								
+								<label for="25ft">25 ft (£ 154)</label>
+								<br /><br />	
+								<input type="radio" name="plotinput" id="radio25ft" value="25ft"><br>
+							
+								<label for="30ft">30 ft (£ 164)</label>
+								<br /><br />
+								<input type="radio" name="plotinput" id="radio30ft" value="30ft"><br>
+								
+								<label for="corner">Corner Plot (£ 25 extra)</label>
+								<br /><br />
+								<input type="checkbox" name="plotinput" id="corner" value="cornerplot">
+								<br /><br />
+								
+								<div class="buttondiv">
+									<button id="submitButton" type="button" class="">Submit</button>
+								</div>
+							</form>	
+						</section>
+					</div>
+				</div>
+			
+			</section>
+			
+			<section id="sponsor">
+				<p class="parheader">Our Sponsor</p>
+				
+				<div class="singlecontainertransparent">
+					<a href="http://www.furnace-lakes.co.uk/">
+					<img class="sponsorimage" src="images/sponsor1.png" title="Our Generous Sponsor" alt=""></a>
+				</div>
+			</section>
+		
+			<section id="footer">
+			
+				<div id="footercontent">
+					<ul class="navf">
+							<li><a href="index.html">home</a></li>
+							<li><a href="#">privacy policy</a></li>
+							<li><a href="#">terms & conditions</a></li>
+							<li><a href="#">© 2015 Rudgwick Country Shows</a></li>
+					</ul>
+					
+					<ul class="navf">
+							<li><a href="http://www.facebook.com"><img src="images/fb.png" alt="facebook" /></a></li>
+							<li><a href="http://www.twitter.com"><img src="images/twitter.jpg" alt="twitter" /></a></li>
+							<li><a href="http://plus.google.com"><img src="images/gplus.png" alt="gplus" /></a></li>
+					</ul>
+				</div>
+			</section>
+	
+		</section>
+	</body>
+</html>

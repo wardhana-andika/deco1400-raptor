@@ -1,0 +1,30 @@
+
+.singlecontainer{
+	min-height: 0px;
+	height: 180px;
+	margin-top: 10px;
+	padding: 0px;
+	padding-bottom: 20px;
+}
+
+.singlecontainer img{
+	height:120px;
+	border: 1px solid black;
+	margin-left:30px;
+}
+
+.submitter{
+	width: 30%;
+	display: inline-block;
+}
+
+.submitter > p{
+	font-weight: bold;
+	font-size: 1.1em;
+	text-align: center;
+}
+
+.testimony{
+	float:right;
+	width:65%;
+}
